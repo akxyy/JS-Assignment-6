@@ -1,0 +1,80 @@
+.container {
+    margin: auto;
+    height: 650px;
+    width: 480px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+#displayPart {
+    height: 27%;
+    width: auto;
+    position: relative;
+    font-size: 36px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#buttons button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: xx-large;
+    margin: 5px;
+}
+
+.calculator {
+    display: flex;
+}
+
+#operators button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: orange;
+    border: none;
+    font-size: xx-large;
+    margin: 5px;
+}
+
+#sumButton{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 24.3%;
+    bottom: 103px;
+}
+
+#sumButton button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: orange;
+    border: none;
+    font-size: xx-large;
+    position: relative;
+    left:3%;
+}
+#clearButton{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    right: -40%;
+    bottom: 27%;
+}
+
+#clearButton button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: orange;
+    border: none;
+    font-size: xx-large;
+}
